@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinishFlashRacing_Domain", "FinishFlashRacing_Domain\FinishFlashRacing_Domain.csproj", "{BC9158B2-A81C-4BB7-86F0-D7DF19A2A413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinishFlashRacing_Domain.Tests", "FinishFlashRacing_Domain.Tests\FinishFlashRacing_Domain.Tests.csproj", "{02EDEF89-87A9-4A72-BF6B-90D9D9125B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC9158B2-A81C-4BB7-86F0-D7DF19A2A413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9158B2-A81C-4BB7-86F0-D7DF19A2A413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9158B2-A81C-4BB7-86F0-D7DF19A2A413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9158B2-A81C-4BB7-86F0-D7DF19A2A413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02EDEF89-87A9-4A72-BF6B-90D9D9125B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EDEF89-87A9-4A72-BF6B-90D9D9125B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EDEF89-87A9-4A72-BF6B-90D9D9125B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EDEF89-87A9-4A72-BF6B-90D9D9125B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
