@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Week2_FFR_DomainLayer
+namespace Week2_FFR_DomainLayer.Domain
 {
     using System;
     using System.Data.Entity;

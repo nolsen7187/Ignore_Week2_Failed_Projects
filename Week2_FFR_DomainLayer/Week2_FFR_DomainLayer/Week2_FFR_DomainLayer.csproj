@@ -33,19 +33,19 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="FFR.edmx">
+    <EntityDeploy Include="Domain\FFR.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>FFR.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="FFR.Context.tt">
+    <None Include="Domain\FFR.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>FFR.edmx</DependentUpon>
       <LastGenOutput>FFR.Context.cs</LastGenOutput>
     </None>
-    <None Include="FFR.edmx.diagram">
+    <None Include="Domain\FFR.edmx.diagram">
       <DependentUpon>FFR.edmx</DependentUpon>
     </None>
-    <None Include="FFR.tt">
+    <None Include="Domain\FFR.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>FFR.edmx</DependentUpon>
       <LastGenOutput>FFR.cs</LastGenOutput>
@@ -53,25 +53,25 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs">
+    <Compile Include="Domain\Customer.cs">
       <DependentUpon>FFR.tt</DependentUpon>
     </Compile>
-    <Compile Include="FFR.Context.cs">
+    <Compile Include="Domain\FFR.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FFR.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="FFR.cs">
+    <Compile Include="Domain\FFR.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FFR.tt</DependentUpon>
     </Compile>
-    <Compile Include="FFR.Designer.cs">
+    <Compile Include="Domain\FFR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FFR.edmx</DependentUpon>
     </Compile>
-    <Compile Include="SalesHeader.cs">
+    <Compile Include="Domain\SalesHeader.cs">
       <DependentUpon>FFR.tt</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -91,7 +91,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder1\" />
+    <Folder Include="Business\" />
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
