@@ -74,6 +74,7 @@
     <Compile Include="Domain\SalesHeader.cs">
       <DependentUpon>FFR.tt</DependentUpon>
     </Compile>
+    <Compile Include="Execute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
